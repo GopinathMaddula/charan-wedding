@@ -1,0 +1,28 @@
+.main-bg {
+  position: relative;
+  background: url("../../images/main-bg.JPG") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  padding: 14px;
+}
+
+.main-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.main-bg * {
+  position: relative;
+  z-index: 2; /* Ensures content stays above the overlay */
+  color: white; /* Adjust text color for better visibility */
+}

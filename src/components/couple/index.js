@@ -1,16 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Sectiontitle from "../section-title";
-import couple1 from "../../images/couple/img-1.jpg";
-import couple2 from "../../images/couple/img-2.jpg";
+import couple1 from "../../images/couple/charan.JPG";
+import couple2 from "../../images/couple/akhila.JPG";
 import couple3 from "../../images/couple/2.png";
 import "./style.css";
 
 const Couple = () => {
   return (
     <div id="couple" className="about-wrap">
-      <div className="couple-area section-padding pb-70">
-        <Sectiontitle section={"Happy Couple"} />
+      <div className="couple-area section-padding pb-0 pt-0">
+        <Sectiontitle
+          section={
+            "Together With our families and friends invite to be a part of our celebration"
+          }
+        />
         <div className="container">
           <div className="couple-wrap">
             <div className="row">
@@ -21,14 +25,8 @@ const Couple = () => {
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>CHARAN</h3>
-                      <h4>I am going to introduce myself</h4>
-                      <p>
-                        Hi I am Nancy Elizabeth. I am going to introduce
-                        myself.I am a professional graphic designer professional
-                        graphic designer going to introduce myself.I am going to
-                        introduce myself.
-                      </p>
+                      <h3>CHARAN PASUPULATI</h3>
+                      <h5>S/O Venkateswarao & Padmaja</h5>
                     </div>
                     {/* <div className="social-icon">
                       <ul className="d-flex">
@@ -57,7 +55,10 @@ const Couple = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 couple-single">
+              <div
+                className="col-lg-2 couple-single"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
                 <div className="couple-shape">
                   <img src={couple3} alt="shape" />
                 </div>
@@ -69,14 +70,8 @@ const Couple = () => {
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>AKHILA</h3>
-                      <h4>I am going to introduce myself</h4>
-                      <p>
-                        Hi I am Harry William. I am going to introduce myself.I
-                        am a professional graphic designer professional graphic
-                        designer going to introduce myself.I am going to
-                        introduce myself.
-                      </p>
+                      <h3>AKHILA NADIKATLA</h3>
+                      <h5>D/O Srinivasa Rao & Naga Pushpavathi</h5>
                     </div>
                     {/* <div className="social-icon">
                       <ul className="d-flex">

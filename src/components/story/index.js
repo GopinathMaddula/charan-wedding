@@ -8,12 +8,21 @@ import "./style.css";
 
 const Story = () => {
   return (
-    <div id="story" className="story-area section-padding">
+    <div id="story" className="story-area section-padding pt-0">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "20px",
+        }}
+      >
+        <div className="section-bg"></div>
+      </div>
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">
-            <h2>Our Events</h2>
-            <h3 style={{ color: "#649e93" }}>Events On Our Special day</h3>
+            <h2>We ask you to join us on this fresh begining celebrations</h2>
+            {/* <h3 style={{ color: "#649e93" }}>Events On Our Special day</h3> */}
           </div>
         </div>
         <div className="row">
@@ -44,7 +53,7 @@ const Story = () => {
                         to="https://maps.app.goo.gl/vfX5L7ay7N5NQejU9"
                         title="READ MORE"
                       >
-                        See Location
+                        Open Maps
                       </Link>
                     </div>
                   </div>
@@ -72,7 +81,7 @@ const Story = () => {
                         to="https://maps.app.goo.gl/vfX5L7ay7N5NQejU9"
                         title="READ MORE"
                       >
-                        See Location
+                        Open Maps
                       </Link>
                     </div>
                   </div>
@@ -100,7 +109,7 @@ const Story = () => {
                         to="https://maps.app.goo.gl/GyyTrAtoHr23pnWP9"
                         title="READ MORE"
                       >
-                        See Location
+                        Open Maps
                       </Link>
                     </div>
                   </div>
@@ -129,7 +138,7 @@ const Story = () => {
                         title="READ MORE"
                         target="_blank"
                       >
-                        See Location
+                        Open Maps
                       </Link>
                     </div>
                   </div>
